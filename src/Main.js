@@ -16,7 +16,7 @@ class Main extends Component {
         <div>
           <h1>Credit Repair</h1>
           <ul className="header">
-            <li><NavLink to="/">Repair</NavLink></li>
+            <li><NavLink exact to="/">Repair</NavLink></li>
             <li><NavLink to="/Pricing">Pricing</NavLink></li>
             <li><NavLink to ="/contactUs">Contact Us</NavLink></li>
           </ul>
